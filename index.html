@@ -15,55 +15,41 @@
       margin: 0;
       padding: 0;
     }
-    a {
-      color: #58a6ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .container {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 20px;
-    }
-    h1, h2, h3, h4 {
-      color: #58a6ff;
-    }
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
     hr {
       border: none;
       border-top: 1px solid #30363d;
-      margin: 30px 0;
+      margin: 40px 0;
     }
+    h1, h2, h3 { color: #58a6ff; }
+    .center { text-align: center; }
+    .container { max-width: 1100px; margin: 40px auto; padding: 20px; }
     table {
       width: 100%;
       border-collapse: collapse;
+      margin: 20px auto;
     }
-    td {
-      vertical-align: top;
-      padding: 15px;
-    }
-    img {
-      border-radius: 8px;
-    }
-    .center {
+    th, td {
+      padding: 10px;
+      border: 1px solid #30363d;
       text-align: center;
     }
-    .batman-gif {
-      width: 280px;
-      max-width: 100%;
+    img { border-radius: 10px; }
+    .badges img {
+      margin: 5px;
     }
-    .stats img {
-      border-radius: 10px;
-      margin: 10px 0;
-    }
-    .badge-group img {
-      margin: 4px;
-    }
-    .footer {
-      text-align: center;
-      margin-top: 50px;
+    blockquote {
+      border-left: 4px solid #58a6ff;
+      padding-left: 15px;
       font-style: italic;
+      color: #a8b3c1;
+      margin: 25px 0;
+    }
+    .section-title {
+      border-bottom: 1px solid #30363d;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
     }
   </style>
 </head>
@@ -72,30 +58,36 @@
     <div class="center">
       <h1>🦇 Eu Bruh, Soy Marlo Valle 🦇</h1>
       <p><em>(Mar pa los compas)</em><br><strong>P.D:</strong> I'M BATMAN 🦇</p>
-      <img src="img/batman.gif" alt="Batman GIF" class="batman-gif">
-      <hr>
-
-      <h3>💬 Sobre mí</h3>
-      <p>
-        Eu Bruh, soy <strong>Marlo Valle</strong> (Mar, marci, marsito pa los más compas). Estudio <strong>Ingeniería en Computación en ESPOL</strong> y básicamente vivo trabajando como desarrollador, escuchando música y en mis clases. Amo mucho el café y de vez en cuando tengo una que otra crisis existencial del tipo <em>"¿por qué no se ejecuta estoooooo?"</em>.
-      </p>
-      <p>
-        Me gusta el <strong>desarrollo web</strong> (siempre busco hacer web pages bajo pedido y que sean lindas con chatbots y buenas interfaces), me gusta aún más la <strong>automatización con n8n</strong>, y todo lo relacionado con <strong>IA aplicada</strong>.
-      </p>
-      <blockquote>“Entre tasas de café y leer la documentación se encuentra la solución” — Mar, debuggeando a las 3 AM sin poder mimir ☕</blockquote>
+      <img src="img/batman.gif" alt="Batman GIF" width="260">
       <hr>
     </div>
 
-    <h2>📌 Contenido</h2>
+    <h3 class="section-title">💬 Sobre mí</h3>
+    <p>
+      Eu Bruh, soy <strong>Marlo Valle</strong> (Mar, marci, marsito pa los más compas).  
+      Estudio <strong>Ingeniería en Computación en ESPOL</strong> y básicamente vivo trabajando como desarrollador, escuchando música y en mis clases.  
+      Amo mucho el café y de vez en cuando tengo una que otra crisis existencial del tipo “¿por qué no se ejecuta estoooooo?”.
+    </p>
+    <p>
+      Me gusta el <strong>desarrollo web</strong> (siempre busco hacer web pages bajo pedido y que sean lindas con chatbots y buenas interfaces), me gusta aún más la <strong>automatización con n8n</strong> (porque si algo se puede automatizar, ¿para qué hacerlo manual?), y todo lo relacionado con <strong>IA aplicada</strong>.  
+      También me meto con sistemas más “serios” como <strong>facturación electrónica</strong> y <strong>bots inteligentes</strong> porque me gusta subir de nivel en todo lo que hago.
+    </p>
+    <p>Mi filosofía es simple: Para todo hay solución menos para la muerte (o eso creo).</p>
+    <blockquote>
+      “Entre tasas de café y leer la documentación se encuentra la solución” — Mar, debuggeando a las 3 AM muerto de sueño y sin poder mimir
+    </blockquote>
+    <hr>
+
+    <h2 class="section-title">📌 Contenido</h2>
     <ul>
       <li><a href="#info">👤 Información Personal</a></li>
       <li><a href="#proyectos">🚀 Proyectos Destacados</a></li>
       <li><a href="#tech">⚙️ Tecnologías y Herramientas</a></li>
       <li><a href="#stats">📊 Stats</a></li>
     </ul>
-    <hr>
 
-    <h2 id="info" class="center">👤 Información Personal</h2>
+    <hr id="info">
+    <h2 class="center">👤 Información Personal</h2>
     <div class="center">
       <table>
         <tr><td><b>Nombre</b></td><td>Marlo Valle</td></tr>
@@ -104,46 +96,49 @@
         <tr><td><b>Ciudad</b></td><td>Guayaquil 🇪🇨</td></tr>
         <tr><td><b>Email</b></td><td><a href="mailto:mavalle@espol.edu.ec">mavalle@espol.edu.ec</a></td></tr>
         <tr><td><b>GitHub</b></td><td><a href="https://github.com/MarSalvatore28">@MarSalvatore28</a></td></tr>
-        <tr><td><b>Portfolio</b></td><td><a href="https://marsalvatore28.github.io">marsalvatore28.github.io</a></td></tr>
+        <tr><td><b>Portfolio</b></td><td><a href="https://marsalvatore28.github.io/MarSalvatore28">marsalvatore28.github.io/MarSalvatore28</a></td></tr>
       </table>
     </div>
 
-    <hr>
-    <h2 id="proyectos" class="center">🚀 Proyectos Destacados</h2>
+    <hr id="proyectos">
+    <h2 class="center">🚀 Proyectos Destacados</h2>
     <div class="center">
-      <!-- Puedes pegar el mismo contenido HTML del README (ya con las imágenes de proyectos) aquí -->
-      ⚖️ <b>NexoLegal</b>, 🖨️ <b>TonerExpress</b>, 💼 <b>ERPNext SRI</b>, 🤖 <b>AI Automation Hub</b>  
-      *(El resto de los proyectos están igual al README de GitHub, solo asegúrate de mantener los links de imágenes y badges)*
+      <p>⚖️ <b>NexoLegal</b> | 🖨️ <b>TonerExpress</b> | 💼 <b>ERPNext SRI</b> | 🤖 <b>AI Automation Hub</b></p>
+      <p><em>Revisa los proyectos detallados en mi README de GitHub 👇</em></p>
+      <a href="https://github.com/MarSalvatore28" target="_blank">🔗 Ver en GitHub</a>
     </div>
 
-    <hr>
-    <h2 id="tech" class="center">⚙️ Tecnologías y Herramientas</h2>
-    <div class="center badge-group">
+    <hr id="tech">
+    <h2 class="center">⚙️ Tecnologías y Herramientas</h2>
+    <div class="center badges">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
       <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
       <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
       <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
       <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+      <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white">
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
     </div>
 
-    <hr>
-    <h2 id="stats" class="center">📊 Stats</h2>
-    <div class="center stats">
-      <img src="https://github-readme-stats.vercel.app/api?username=MarSalvatore28&show_icons=true&theme=tokyonight&hide_border=true" width="495" alt="Stats">
+    <hr id="stats">
+    <h2 class="center">📊 Stats</h2>
+    <div class="center">
+      <img src="https://github-readme-stats.vercel.app/api?username=MarSalvatore28&show_icons=true&theme=tokyonight&hide_border=true" width="495" alt="Stats"><br>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarSalvatore28&layout=compact&theme=tokyonight&hide_border=true" width="495" alt="Top Langs"><br>
       <img src="https://github-readme-streak-stats.herokuapp.com/?user=MarSalvatore28&theme=tokyonight&hide_border=true" width="495" alt="Streak">
     </div>
 
-    <div class="footer">
+    <hr>
+    <div class="center">
       <h3>🦇 Conexiones</h3>
       <p>
         <a href="https://github.com/MarSalvatore28">GitHub</a> |
-        <a href="mailto:mcvalle@espol.edu.ec">Email</a> |
-        <a href="https://MarSalvatore28.github.io">Portfolio</a>
+        <a href="mailto:mavalle@espol.edu.ec">Email</a> |
+        <a href="https://marsalvatore28.github.io">Portfolio</a>
       </p>
-      <hr>
-      ⭐ <b>Si llegaste hasta aquí, recuerda:</b><br>
+      <p>⭐ <b>Si llegaste hasta aquí, recuerda:</b><br>
       🦇 <em>No busco fama, busco propósito.</em><br>
-      💻 <em>Y café. Siempre café.</em><br><br>
+      💻 <em>Y café. Siempre café.</em></p>
       <img src="https://komarev.com/ghpvc/?username=MarSalvatore28&color=58a6ff&style=for-the-badge" alt="Profile Views">
     </div>
   </div>
