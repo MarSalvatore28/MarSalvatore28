@@ -7,140 +7,237 @@
   <title>🦇 Eu Bruh, Soy Marlo Valle 🦇</title>
   <link rel="icon" href="https://github.githubassets.com/favicons/favicon.svg">
   <style>
+    :root{
+      --bg:#0d1117; --muted:#8b949e; --text:#c9d1d9; --accent:#58a6ff; --panel:#01040966;
+    }
+    html,body{height:100%;}
     body {
-      background-color: #0d1117;
-      color: #c9d1d9;
-      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      margin: 0; padding: 18px;
+      -webkit-font-smoothing:antialiased;
     }
-    a { color: #58a6ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    hr {
-      border: none;
-      border-top: 1px solid #30363d;
-      margin: 40px 0;
-    }
-    h1, h2, h3 { color: #58a6ff; }
-    .center { text-align: center; }
-    .container { max-width: 1100px; margin: 40px auto; padding: 20px; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 20px auto;
-    }
-    th, td {
-      padding: 10px;
-      border: 1px solid #30363d;
-      text-align: center;
-    }
-    img { border-radius: 10px; }
-    .badges img {
-      margin: 5px;
-    }
-    blockquote {
-      border-left: 4px solid #58a6ff;
-      padding-left: 15px;
-      font-style: italic;
-      color: #a8b3c1;
-      margin: 25px 0;
-    }
-    .section-title {
-      border-bottom: 1px solid #30363d;
-      padding-bottom: 8px;
-      margin-bottom: 20px;
-    }
+    .wrap{max-width:1100px;margin:20px auto;padding:26px;border-radius:12px}
+    .card{background:transparent}
+    .center{text-align:center}
+    h1{color:var(--accent);margin:6px 0;font-size:34px}
+    h2{color:var(--accent);margin:18px 0 8px}
+    h3{color:var(--accent);margin:12px 0}
+    p{color:var(--text);margin:8px 0}
+    hr{border:none;border-top:1px solid #22272b;margin:20px 0}
+    blockquote{border-left:4px solid var(--accent);padding-left:14px;color:#a8b3c1;margin:18px 0}
+    table{width:100%;border-collapse:collapse}
+    td, th{padding:8px;vertical-align:top}
+    .badges img{margin:6px}
+    img.responsive{max-width:100%;height:auto;border-radius:8px}
+    /* BATMAN grande y responsivo */
+    .batman{width:420px;max-width:86%;border-radius:12px;display:block;margin:14px auto}
+    /* Proyectos lado a lado en pantallas grandes */
+    .projects{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+    @media(max-width:900px){.projects{grid-template-columns:1fr}.batman{width:320px}}
+    .project-card{background:transparent;padding:6px}
+    .links img{margin:6px}
+    .footer{margin-top:26px;text-align:center;color:var(--muted)}
+    a{color:var(--accent)}
+    /* tabla estilo "perfil" */
+    .info-table{max-width:700px;margin:0 auto;border:1px solid #22272b;border-radius:8px;overflow:hidden}
+    .info-table tr:nth-child(even){background:rgba(255,255,255,0.02)}
+    .info-table td{border-bottom:1px solid #151719}
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="wrap card">
     <div class="center">
       <h1>🦇 Eu Bruh, Soy Marlo Valle 🦇</h1>
       <p><em>(Mar pa los compas)</em><br><strong>P.D:</strong> I'M BATMAN 🦇</p>
-      <img src="img/batman.gif" alt="Batman GIF" width="260">
+
+      <!-- BATMAN GIF - agrandado -->
+      <img src="img/batman.gif" alt="Batman GIF" class="batman responsive">
+
       <hr>
     </div>
 
-    <h3 class="section-title">💬 Sobre mí</h3>
+    <h3>💬 Sobre mí</h3>
+
     <p>
-      Eu Bruh, soy <strong>Marlo Valle</strong> (Mar, marci, marsito pa los más compas).  
-      Estudio <strong>Ingeniería en Computación en ESPOL</strong> y básicamente vivo trabajando como desarrollador, escuchando música y en mis clases.  
-      Amo mucho el café y de vez en cuando tengo una que otra crisis existencial del tipo “¿por qué no se ejecuta estoooooo?”.
+      Eu Bruh, soy <strong>Marlo Valle</strong> (Mar,marci,marsito pa los más compas). Estudio <strong>Ingeniería en Computación en ESPOL</strong> y básicamente vivo trabajando como desarrollador, escuchando música y en mis clases, amo mucho el café y de vez en cuando tengo una que otra crisis existencial del tipo "¿por qué no se ejecuta estoooooo?".
     </p>
+
     <p>
-      Me gusta el <strong>desarrollo web</strong> (siempre busco hacer web pages bajo pedido y que sean lindas con chatbots y buenas interfaces), me gusta aún más la <strong>automatización con n8n</strong> (porque si algo se puede automatizar, ¿para qué hacerlo manual?), y todo lo relacionado con <strong>IA aplicada</strong>.  
-      También me meto con sistemas más “serios” como <strong>facturación electrónica</strong> y <strong>bots inteligentes</strong> porque me gusta subir de nivel en todo lo que hago.
+      Me gusta el <strong>desarrollo web</strong> (siempre busco hacer web pages bajo pedido y que sean lindas con chatbots y buenas interfaces), me gusta aún más la <strong>automatización con n8n</strong> (porque si algo se puede automatizar, ¿para qué hacerlo manual?, sumado al hecho de que he ehcho muchos flujos para hacerme la vida más fácil amo eso), y todo lo relacionado con <strong>IA aplicada</strong> he desarrollado muchos chatbots de atención al cliente donde le cargo un contexto para que sepa de que hablar, ahora busco hacer Talkbots. También me meto con sistemas más "serios" como <strong>facturación electrónica</strong> y <strong>bots inteligentes</strong> porque me gusta subir de nivel en todo lo que hago siempre asi que modo chambeador 24/7.
     </p>
-    <p>Mi filosofía es simple: Para todo hay solución menos para la muerte (o eso creo).</p>
+
+    <p>Mi filosofía es simple: Para todo hay solución menos para la muerte(o eso creo).</p>
+
     <blockquote>
-      “Entre tasas de café y leer la documentación se encuentra la solución” — Mar, debuggeando a las 3 AM muerto de sueño y sin poder mimir
+      "Entre tasas de café y leer la documentación se encuentra la solución"  
+      — Mar, debuggeando a las 3 AM muerto de sueño y sin poder mimir
     </blockquote>
+
     <hr>
 
-    <h2 class="section-title">📌 Contenido</h2>
+    <h2>📌 Contenido</h2>
     <ul>
-      <li><a href="#info">👤 Información Personal</a></li>
-      <li><a href="#proyectos">🚀 Proyectos Destacados</a></li>
-      <li><a href="#tech">⚙️ Tecnologías y Herramientas</a></li>
-      <li><a href="#stats">📊 Stats</a></li>
+      <li><a href="#info">Información Personal</a></li>
+      <li><a href="#proyectos">Proyectos Destacados</a></li>
+      <li><a href="#tech">Tecnologías y Herramientas</a></li>
+      <li><a href="#stats">Stats</a></li>
     </ul>
 
     <hr id="info">
     <h2 class="center">👤 Información Personal</h2>
+
     <div class="center">
-      <table>
-        <tr><td><b>Nombre</b></td><td>Marlo Valle</td></tr>
-        <tr><td><b>Alias</b></td><td>Mar</td></tr>
-        <tr><td><b>Ocupación</b></td><td>Estudiante & Desarrollador</td></tr>
-        <tr><td><b>Ciudad</b></td><td>Guayaquil 🇪🇨</td></tr>
-        <tr><td><b>Email</b></td><td><a href="mailto:mavalle@espol.edu.ec">mavalle@espol.edu.ec</a></td></tr>
-        <tr><td><b>GitHub</b></td><td><a href="https://github.com/MarSalvatore28">@MarSalvatore28</a></td></tr>
-        <tr><td><b>Portfolio</b></td><td><a href="https://marsalvatore28.github.io/MarSalvatore28">marsalvatore28.github.io/MarSalvatore28</a></td></tr>
+      <table class="info-table">
+        <tr><td><strong>Nombre</strong></td><td>Marlo Valle</td></tr>
+        <tr><td><strong>Alias</strong></td><td>Mar</td></tr>
+        <tr><td><strong>Ocupación</strong></td><td>Estudiante & Desarrollador</td></tr>
+        <tr><td><strong>Ciudad</strong></td><td>Guayaquil 🇪🇨</td></tr>
+        <tr><td><strong>Email</strong></td><td><a href="mailto:mcvalle@espol.edu.ec">mcvalle@espol.edu.ec</a></td></tr>
+        <tr><td><strong>GitHub</strong></td><td><a href="https://github.com/MarSalvatore28">@MarSalvatore28</a></td></tr>
+        <tr><td><strong>Portfolio</strong></td><td><a href="https://marsalvatore28.github.io/MarSalvatore28">https://marsalvatore28.github.io/MarSalvatore28</a></td></tr>
       </table>
     </div>
 
     <hr id="proyectos">
     <h2 class="center">🚀 Proyectos Destacados</h2>
-    <div class="center">
-      <p>⚖️ <b>NexoLegal</b> | 🖨️ <b>TonerExpress</b> | 💼 <b>ERPNext SRI</b> | 🤖 <b>AI Automation Hub</b></p>
-      <p><em>Revisa los proyectos detallados en mi README de GitHub 👇</em></p>
-      <a href="https://github.com/MarSalvatore28" target="_blank">🔗 Ver en GitHub</a>
+
+    <div class="projects">
+      <div class="project-card center">
+        <h3>⚖️ NexoLegal</h3>
+        <h4>Plataforma Legal Profesional</h4>
+        <a href="https://www.nexolegal.org" target="_blank">
+          <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/nexolegal.png" alt="NexoLegal Preview" class="responsive">
+        </a>
+        <p>Sitio web profesional que presenta servicios legales, información de contacto y casos destacados. Diseño elegante y responsivo enfocado en la experiencia del usuario.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+          <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+          <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind">
+        </div>
+        <p class="links"><a href="https://www.nexolegal.org" target="_blank"><img src="https://img.shields.io/badge/🌐_Ver_Sitio-4A90E2?style=for-the-badge" alt="Ver Sitio"></a> <a href="https://github.com/MarSalvatore28/NexoLegal" target="_blank"><img src="https://img.shields.io/badge/📂_Repositorio-181717?style=for-the-badge&logo=github" alt="Repo"></a></p>
+      </div>
+
+      <div class="project-card center">
+        <h3>🖨️ TonerExpress</h3>
+        <h4>E-commerce Completo</h4>
+        <a href="https://tonerexpress-ec.com" target="_blank">
+          <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/tonerexpress.png" alt="TonerExpress Preview" class="responsive">
+        </a>
+        <p>Tienda en línea con carrito de compras, sistema de pagos integrado y gestión dinámica de productos. Panel administrativo con gestión de inventario en tiempo real.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
+          <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+          <img src="https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+          <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+        </div>
+        <p class="links"><a href="https://tonerexpress-ec.com" target="_blank"><img src="https://img.shields.io/badge/🌐_Ver_Sitio-FF6B35?style=for-the-badge" alt="Ver Sitio"></a> <a href="https://github.com/MarSalvatore28/alpha_Florencia" target="_blank"><img src="https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github" alt="Frontend Repo"></a> <a href="https://github.com/MarSalvatore28/BackToner" target="_blank"><img src="https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github" alt="Backend Repo"></a></p>
+      </div>
+
+      <div class="project-card center">
+        <h3>💼 ERPNext SRI</h3>
+        <h4>Sistema ERP Empresarial</h4>
+        <a href="https://github.com/MarSalvatore28/ErpSRI" target="_blank">
+          <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/erp.png" alt="ERP Preview" class="responsive">
+        </a>
+        <p>Sistema ERP completo con facturación electrónica enlazado al SRI de Ecuador. Gestión de inventarios, clientes, proveedores y reportería avanzada para empresas.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+          <img src="https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="Frappe">
+          <img src="https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white" alt="ERPNext">
+          <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB">
+        </div>
+        <p class="links"><a href="https://github.com/MarSalvatore28/ErpSRI" target="_blank"><img src="https://img.shields.io/badge/📂_Ver_Repositorio-8B5CF6?style=for-the-badge&logo=github" alt="Repo"></a></p>
+      </div>
+
+      <div class="project-card center">
+        <h3>🤖 AI Automation Hub</h3>
+        <h4>Chatbots & Automatización</h4>
+        <a href="https://github.com/MarSalvatore28/automataSalvatore-s.git" target="_blank">
+          <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/automata.png" alt="Automation Preview" class="responsive">
+        </a>
+        <p>Backend robusto para e-commerce y automatizaciones empresariales. Integra chatbots inteligentes, flujos con n8n y capacidades de IA con OpenAI para procesos automatizados.</p>
+        <div class="badges">
+          <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node">
+          <img src="https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express">
+          <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n">
+          <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI">
+        </div>
+        <p class="links"><a href="https://github.com/MarSalvatore28/automataSalvatore-s.git" target="_blank"><img src="https://img.shields.io/badge/📂_Ver_Repositorio-06B6D4?style=for-the-badge&logo=github" alt="Repo"></a></p>
+      </div>
+
     </div>
 
-    <hr id="tech">
-    <h2 class="center">⚙️ Tecnologías y Herramientas</h2>
+    <hr>
+
+    <h2 id="tech" class="center">⚙️ Tecnologías y Herramientas</h2>
     <div class="center badges">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
-      <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-      <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white">
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white">
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS"/>
+        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite"/>
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node"/>
+        <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
+        <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+        <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
+        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+        <img src="https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="Frappe"/>
+      </p>
+
+      <p>
+        <img src="https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white" alt="ERPNext"/>
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"/>
+        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode"/>
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
+        <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+      </p>
     </div>
 
     <hr id="stats">
     <h2 class="center">📊 Stats</h2>
     <div class="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=MarSalvatore28&show_icons=true&theme=tokyonight&hide_border=true" width="495" alt="Stats"><br>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarSalvatore28&layout=compact&theme=tokyonight&hide_border=true" width="495" alt="Top Langs"><br>
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=MarSalvatore28&theme=tokyonight&hide_border=true" width="495" alt="Streak">
+      <img src="https://github-readme-stats.vercel.app/api?username=MarSalvatore28&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" alt="Mar's GitHub Stats" width="495" class="responsive">
+
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MarSalvatore28&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" width="495" class="responsive">
+
+      <img src="https://github-readme-stats.vercel.app/api/others/streak?user=MarSalvatore28&theme=tokyonight&hide_border=true" alt="Streak" width="495" class="responsive" onerror="this.src='https://github-readme-streak-stats.herokuapp.com/?user=MarSalvatore28&theme=tokyonight&hide_border=true&background=0d1117'">
     </div>
 
     <hr>
     <div class="center">
       <h3>🦇 Conexiones</h3>
       <p>
-        <a href="https://github.com/MarSalvatore28">GitHub</a> |
-        <a href="mailto:mavalle@espol.edu.ec">Email</a> |
-        <a href="https://marsalvatore28.github.io">Portfolio</a>
+        <a href="https://github.com/MarSalvatore28"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+        <a href="mailto:mcvalle@espol.edu.ec"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+        <a href="https://marsalvatore28.github.io"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio"></a>
       </p>
-      <p>⭐ <b>Si llegaste hasta aquí, recuerda:</b><br>
+
+      <p>⭐ <strong>Si llegaste hasta aquí, recuerda:</strong><br>
       🦇 <em>No busco fama, busco propósito.</em><br>
       💻 <em>Y café. Siempre café.</em></p>
+
       <img src="https://komarev.com/ghpvc/?username=MarSalvatore28&color=58a6ff&style=for-the-badge" alt="Profile Views">
+
+      <div class="footer">© 2025 Marlo Valle — Hecho con café ☕ y código</div>
     </div>
+
   </div>
 </body>
 </html>
