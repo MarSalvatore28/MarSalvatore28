@@ -55,7 +55,7 @@ Mi filosofía es simple: si algo vale la pena hacerse, vale la pena hacerse bien
 
 ### ⚖️ NexoLegal — Sitio Web de Abogados
 
-<img src="https://via.placeholder.com/800x400/1e293b/60a5fa?text=NexoLegal+-+Legal+Services+Platform" alt="NexoLegal Preview" width="700"/>
+<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/nexolegal.png" alt="NexoLegal Preview" width="700"/>
 
 Sitio web informativo y profesional que presenta **servicios legales**, información de contacto y casos destacados. Diseño limpio y responsivo enfocado en la experiencia del usuario.
 
@@ -71,7 +71,7 @@ Sitio web informativo y profesional que presenta **servicios legales**, informac
 
 ### 🖨️ TonerExpress — E-commerce de Toners
 
-<img src="https://via.placeholder.com/800x400/0f172a/f59e0b?text=TonerExpress+-+E-commerce+Platform" alt="TonerExpress Preview" width="700"/>
+<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/tonerexpress.png" alt="TonerExpress Preview" width="700"/>
 
 Tienda en línea completa con **carrito de compras**, **sistema de pagos integrado** y gestión dinámica de productos. Incluye panel administrativo y gestión de inventario en tiempo real.
 
@@ -95,7 +95,7 @@ Tienda en línea completa con **carrito de compras**, **sistema de pagos integra
 
 ### 💼 ERPNext — Sistema de Facturación y Gestión
 
-<img src="https://via.placeholder.com/800x400/1e1b4b/8b5cf6?text=ERPNext+-+ERP+System+%26+SRI+Integration" alt="ERPNext Preview" width="700"/>
+<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/erp.png" alt="ERPNext Preview" width="700"/>
 
 Sistema **ERP completo con facturación electrónica** directamente enlazado al **SRI de Ecuador**. Incluye gestión de inventarios, clientes, proveedores y reportería avanzada.
 
@@ -112,7 +112,7 @@ Sistema **ERP completo con facturación electrónica** directamente enlazado al 
 
 ### 🤖 Automatizaciones & Chatbots — Integraciones Inteligentes
 
-<img src="https://via.placeholder.com/800x400/0c4a6e/06b6d4?text=Automation+%26+AI+Chatbots" alt="Automation Preview" width="700"/>
+<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/automata.png" alt="Automation Preview" width="700"/>
 
 Backend robusto para **e-commerce y automatizaciones empresariales**, integrando **chatbots inteligentes**, flujos de trabajo con **n8n** y capacidades de **IA con OpenAI**. Automatización de procesos de ventas, atención al cliente y marketing.
 
@@ -124,7 +124,7 @@ Backend robusto para **e-commerce y automatizaciones empresariales**, integrando
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
 </p>
 
-**[📂 Ver Repositorio](https://github.com/MarSalvatore28/BackToner)**
+**[📂 Ver Repositorio](https://github.com/MarSalvatore28/automataSalvatore-s.git)**
 
 </div>
 
