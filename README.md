@@ -41,9 +41,9 @@ Mi filosofía es simple: Para todo hay solución menos para la muerte(o eso creo
 | **Alias** | Mar |
 | **Ocupación** | Estudiante & Desarrollador |
 | **Ciudad** | Guayaquil 🇪🇨 |
-| **Email** | [mavalle@espol.edu.ec](mailto:mavalle@espol.edu.ec) |
+| **Email** | [mcvalle@espol.edu.ec](mailto:mcvalle@espol.edu.ec) |
 | **GitHub** | [@MarSalvatore28](https://github.com/MarSalvatore28) |
-| **Portfolio** | [marsalvatore28.github.io](https://marsalvatore28.github.io) |
+| **Portfolio** | [https://marsalvatore28.github.io/MarSalvatore28](https://marsalvatore28.github.io/MarSalvatore28) |
 
 </div>
 
