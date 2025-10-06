@@ -10,14 +10,14 @@
 
 ### 💬 Sobre mí
 
-Qué tal, soy **Marlo Valle** (o Mar, como me dicen los compas). Estudio **Ingeniería en Computación en ESPOL** y básicamente vivo entre código, café y una que otra crisis existencial del tipo "¿por qué no compila?".  
+Eu Bruh, soy **Marlo Valle** (Mar,marci,marsito pa los más compas). Estudio **Ingeniería en Computación en ESPOL** y básicamente vivo trabajando como desarrollador , escuchando música y en mis clases, amo mucho el café y de vez en cuando tengo una que otra crisis existencial del tipo "¿por qué no se ejecuta estoooooo?".  
 
-Me fascina el **desarrollo web** (especialmente cuando las cosas se ven bonitas Y funcionan), la **automatización con n8n** (porque si algo se puede automatizar, ¿para qué hacerlo manual?), y todo lo relacionado con **IA aplicada**. También me meto con sistemas más "serios" como **facturación electrónica** y **bots inteligentes** porque me gusta cuando la tecnología realmente resuelve problemas reales.
+Me gusta el **desarrollo web** (siempre busco hacer web pages bajo pedido y que sean lindas con chatbots y buenas interfaces), me gusta aún más la **automatización con n8n** (porque si algo se puede automatizar, ¿para qué hacerlo manual?, sumado al hecho de que he ehcho muchos flujos para hacerme la vida más fácil amo eso), y todo lo relacionado con **IA aplicada** he desarrollado muchos chatbots de atención al cliente donde le cargo un contexto para que sepa de que hablar, ahora busco hacer Talkbots. También me meto con sistemas más "serios" como **facturación electrónica** y **bots inteligentes** porque me gusta subir de nivel en todo lo que hago siempre asi que modo chambeador 24/7.
 
-Mi filosofía es simple: si algo vale la pena hacerse, vale la pena hacerse bien. Y si de paso puedo agregarle un toque de caos controlado y estética nocturna, mucho mejor.
+Mi filosofía es simple: Para todo hay solución menos para la muerte(o eso creo).
 
-> "Entre el caos y el control, yo elijo el equilibrio... o al menos lo intento."  
-> — Mar, debuggeando a las 3 AM
+> "Entre tasas de café y leer la documentación se encuentra la solución"  
+> — Mar, debuggeando a las 3 AM muerto de sueño y sin poder mimir
 
 ---
 
@@ -25,7 +25,7 @@ Mi filosofía es simple: si algo vale la pena hacerse, vale la pena hacerse bien
 
 ## 📌 Contenido
 - [Información Personal](#-información-personal)
-- [Proyectos](#-proyectos)
+- [Proyectos Destacados](#-proyectos-destacados)
 - [Tecnologías y Herramientas](#️-tecnologías-y-herramientas)
 - [Stats](#-stats)
 
@@ -49,82 +49,125 @@ Mi filosofía es simple: si algo vale la pena hacerse, vale la pena hacerse bien
 
 ---
 
-## 🚀 Proyectos
+## 🚀 Proyectos Destacados
 
 <div align="center">
 
-### ⚖️ NexoLegal — Sitio Web de Abogados
+<table>
+<tr>
+<td width="50%">
 
-<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/nexolegal.png" alt="NexoLegal Preview" width="700"/>
+### ⚖️ NexoLegal
+#### Plataforma Legal Profesional
 
-Sitio web informativo y profesional que presenta **servicios legales**, información de contacto y casos destacados. Diseño limpio y responsivo enfocado en la experiencia del usuario.
+<a href="https://www.nexolegal.org" target="_blank">
+  <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/nexolegal.png" alt="NexoLegal Preview" width="100%"/>
+</a>
 
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+Sitio web profesional que presenta servicios legales, información de contacto y casos destacados. Diseño elegante y responsivo enfocado en la experiencia del usuario.
+
+**Stack Tecnológico:**
+
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+<p align="center">
+  <a href="https://www.nexolegal.org" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Ver_Sitio-4A90E2?style=for-the-badge" alt="Ver Sitio"/>
+  </a>
+  <a href="https://github.com/MarSalvatore28/NexoLegal" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Repositorio-181717?style=for-the-badge&logo=github" alt="Repositorio"/>
+  </a>
 </p>
 
-**[📂 Ver Repositorio](https://github.com/MarSalvatore28/NexoLegal)**
+</td>
+<td width="50%">
 
----
+### 🖨️ TonerExpress
+#### E-commerce Completo
 
-### 🖨️ TonerExpress — E-commerce de Toners
+<a href="https://tonerexpress-ec.com" target="_blank">
+  <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/tonerexpress.png" alt="TonerExpress Preview" width="100%"/>
+</a>
 
-<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/tonerexpress.png" alt="TonerExpress Preview" width="700"/>
+Tienda en línea con carrito de compras, sistema de pagos integrado y gestión dinámica de productos. Panel administrativo con gestión de inventario en tiempo real.
 
-Tienda en línea completa con **carrito de compras**, **sistema de pagos integrado** y gestión dinámica de productos. Incluye panel administrativo y gestión de inventario en tiempo real.
+**Stack Tecnológico:**
 
-**Frontend:**  
-<p>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+
+<p align="center">
+  <a href="https://tonerexpress-ec.com" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Ver_Sitio-FF6B35?style=for-the-badge" alt="Ver Sitio"/>
+  </a>
+  <a href="https://github.com/MarSalvatore28/alpha_Florencia" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Frontend-181717?style=for-the-badge&logo=github" alt="Frontend"/>
+  </a>
+  <a href="https://github.com/MarSalvatore28/BackToner" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Backend-181717?style=for-the-badge&logo=github" alt="Backend"/>
+  </a>
 </p>
 
-**Backend:**  
-<p>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 💼 ERPNext SRI
+#### Sistema ERP Empresarial
+
+<a href="https://github.com/MarSalvatore28/ErpSRI" target="_blank">
+  <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/erp.png" alt="ERPNext Preview" width="100%"/>
+</a>
+
+Sistema ERP completo con facturación electrónica enlazado al SRI de Ecuador. Gestión de inventarios, clientes, proveedores y reportería avanzada para empresas.
+
+**Stack Tecnológico:**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Frappe](https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white)
+![ERPNext](https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
+
+<p align="center">
+  <a href="https://github.com/MarSalvatore28/ErpSRI" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Ver_Repositorio-8B5CF6?style=for-the-badge&logo=github" alt="Repositorio"/>
+  </a>
 </p>
 
-**[📂 Frontend](https://github.com/MarSalvatore28/alpha_Florencia) | [📂 Backend](https://github.com/MarSalvatore28/BackToner)**
+</td>
+<td width="50%">
 
----
+### 🤖 AI Automation Hub
+#### Chatbots & Automatización
 
-### 💼 ERPNext — Sistema de Facturación y Gestión
+<a href="https://github.com/MarSalvatore28/automataSalvatore-s.git" target="_blank">
+  <img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/automata.png" alt="Automation Preview" width="100%"/>
+</a>
 
-<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/erp.png" alt="ERPNext Preview" width="700"/>
+Backend robusto para e-commerce y automatizaciones empresariales. Integra chatbots inteligentes, flujos con n8n y capacidades de IA con OpenAI para procesos automatizados.
 
-Sistema **ERP completo con facturación electrónica** directamente enlazado al **SRI de Ecuador**. Incluye gestión de inventarios, clientes, proveedores y reportería avanzada.
+**Stack Tecnológico:**
 
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/Frappe-0089FF?style=for-the-badge&logo=frappe&logoColor=white" alt="Frappe"/>
-  <img src="https://img.shields.io/badge/ERPNext-0089FF?style=for-the-badge&logo=erpnext&logoColor=white" alt="ERPNext"/>
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB"/>
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-404D59?style=for-the-badge&logo=express&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+<p align="center">
+  <a href="https://github.com/MarSalvatore28/automataSalvatore-s.git" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Ver_Repositorio-06B6D4?style=for-the-badge&logo=github" alt="Repositorio"/>
+  </a>
 </p>
 
-**[📂 Ver Repositorio](https://github.com/MarSalvatore28/ErpSRI)**
-
----
-
-### 🤖 Automatizaciones & Chatbots — Integraciones Inteligentes
-
-<img src="https://raw.githubusercontent.com/MarSalvatore28/MarSalvatore28/main/img/automata.png" alt="Automation Preview" width="700"/>
-
-Backend robusto para **e-commerce y automatizaciones empresariales**, integrando **chatbots inteligentes**, flujos de trabajo con **n8n** y capacidades de **IA con OpenAI**. Automatización de procesos de ventas, atención al cliente y marketing.
-
-<p>
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white" alt="Express"/>
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"/>
-</p>
-
-**[📂 Ver Repositorio](https://github.com/MarSalvatore28/automataSalvatore-s.git)**
+</td>
+</tr>
+</table>
 
 </div>
 
